@@ -8,11 +8,15 @@ Plug 'mhartington/oceanic-next'  " color
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'sheerun/vim-polyglot' " mother of all syntax highlighting
+
+Plug 'junegunn/goyo.vim'
+Plug 'junegunn/limelight.vim'
+
 call plug#end()
 
 runtime coc-init.vim
 runtime airline-init.vim
-"runtime denite-init.vim
+" runtime goyo-init.vim
 
 " color stuff
 set t_Co=256 " needed for term color support
