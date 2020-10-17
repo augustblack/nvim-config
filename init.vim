@@ -16,7 +16,7 @@ call plug#end()
 
 runtime coc-init.vim
 runtime airline-init.vim
-" runtime goyo-init.vim
+runtime goyo-init.vim
 
 " color stuff
 set t_Co=256 " needed for term color support
