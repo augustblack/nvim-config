@@ -15,6 +15,8 @@ Plug 'peitalin/vim-jsx-typescript'
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
 
+Plug 'rhysd/vim-fixjson', { 'lazy' : 1, 'autoload' : { 'filetypes' : 'json' }}
+
 call plug#end()
 
 runtime coc-init.vim
