@@ -1,11 +1,14 @@
 {
   "javascript.suggestionActions.enabled": false,
   "typescript.suggestionActions.enabled": false,
-  "suggest.echodocSupport": true,
   "suggest.maxCompleteItemCount": 20,
-  //"coc.preferences.formatOnSaveFiletypes": ["javascript", "typescript", "typescriptreact", "json", "javascriptreact", "typescript.tsx"],
-  "eslint.filetypes": ["javascript", "typescript", "typescriptreact", "javascriptreact", "typescript.tsx"],
+  "coc.preferences.formatOnSaveFiletypes": ["javascript", "typescript", "typescriptreact", "json", "javascriptreact", "typescript.tsx"],
+  // "eslint.filetypes": ["javascript", "typescript", "typescriptreact", "javascriptreact", "typescript.tsx"],
   "eslint.autoFixOnSave": true,
+  "prettier.singleQuote":true,
+  "prettier.semi": false,
+  "prettier.printWidth": 200,
+  "prettier.trailingComma": "es5",
   "diagnostic.errorSign": "•",
   "diagnostic.warningSign": "•",
   "diagnostic.infoSign": "•"
