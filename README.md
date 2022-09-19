@@ -28,5 +28,5 @@ I often use the following .eslintrc:
 Which will require in your node project:
 
 ```
-npm install --save-dev eslint babel-eslint eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-standard eslint-config-standard
+npm install --save-dev eslint babel-eslint eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-standard eslint-config-standard @typescript-eslint/eslint-plugin
 ```
