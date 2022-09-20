@@ -43,3 +43,7 @@ set ts=2 sw=2
 syntax on
 syntax enable
 set expandtab
+
+if executable('volta')
+  let g:node_host_prog = trim(system("volta which neovim-node-host"))
+endif
