@@ -3,14 +3,11 @@
   "typescript.suggestionActions.enabled": false,
   "suggest.maxCompleteItemCount": 20,
   "coc.preferences.formatOnSaveFiletypes": ["javascript", "typescript", "typescriptreact", "json", "javascriptreact", "typescript.tsx"],
-  // "eslint.filetypes": ["javascript", "typescript", "typescriptreact", "javascriptreact", "typescript.tsx"],
   "eslint.autoFixOnSave": true,
-  // "eslint.nodePath" : "/Users/august/.volta/bin/node",
-  // "prettier.singleQuote":true,
-  // "prettier.semi": false,
-  // "prettier.printWidth": 80,
-  // "prettier.trailingComma": "es5",
   "diagnostic.errorSign": "•",
   "diagnostic.warningSign": "•",
-  "diagnostic.infoSign": "•"
+  "diagnostic.infoSign": "•",
+  // super-important, somehow without this, the tab-completion will start at the second suggestion, not the first
+  "suggest.noselect": true
 }
+
