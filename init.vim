@@ -34,6 +34,9 @@ catch
   colorscheme slate
 endtry
 
+" if we don't set the colors, we can't see the autocomplete selection
+highlight Pmenu ctermbg=darkgray guibg=darkgray
+
 " Auto-reload buffers when files are changed on disk
 set autoread
 " get rid of scratch
