@@ -50,3 +50,11 @@ set expandtab
 if executable('volta')
   let g:node_host_prog = trim(system("volta which neovim-node-host"))
 endif
+
+let g:coc_global_extensions = [
+  \ 'coc-tsserver',
+  \ 'coc-eslint',
+  \ 'coc-json',
+  \ 'coc-html',
+  \ 'coc-css'
+  \ ]
