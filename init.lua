@@ -1,3 +1,11 @@
+-- disable netrw at the very start of your init.lua (strongly advised) [from nvim-tree]
+-- saw this on Xnor's setup
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
+-- do this or you won't be able to copy text with your mouse selection
+-- you'll have to select, then doubled-click, then select "Copy" from drop-down
+vim.opt.mouse=""
+
 require "user.options"
 require "user.keymaps"
 require "user.plugins"
